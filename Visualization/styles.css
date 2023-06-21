@@ -1,0 +1,18 @@
+/*You can add styles to format your tooltip here*/
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+
+.tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: rgb(199, 192, 192);
+    color: black;
+    border-style: solid;
+    padding : 5 5 5 5;
+  }

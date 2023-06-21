@@ -1,0 +1,92 @@
+
+<html>  
+<head>  
+<script type="text/javascript" src="app.js">
+    </script>  
+<link rel="stylesheet" href="styles.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body onload=finalproj()> 
+
+
+<div>
+<h2 class="section">Final Project</h2>
+
+<br>
+<div>
+
+<div id="v1">
+    </div>
+    <div id="v1_text" class="center_plot">
+        This figure has a standard color scheme of coloring each mark the same color as this figure is not using color as a channel.
+        This figure uses Points as marks and uses Horizontal and Verticle Positions as channels to indicate NA Sales and EU Sales respectively.
+        I decided to use a log scale for the X-axis and Y-Axis. Without this log scale the comprehensibility of the figure degraded as most of points were clumped in the lower left of the graph and any correlation was not easy to see. With the transformation however, the points are not as clumped up and a linear correlation is more easily apparent. I also filtered out games that had below 0.2 million sales in NA or EU to also increase the comprehensibility of the figure.
+        What this figure shows is that while there are some outliers if a game sells well in North America it will sell well in Europe. So, if you are able to get your game to sell well in North America it will most likely also sell well in Europe.
+    </div>
+    <h4>Figure 1:</h4>
+    <div id="v1_plot" class="center_plot">
+    </div><br>
+</div>    
+</div>
+ 
+<div id="v2">
+    </div>
+    <div id="v2_text" class="center_plot">
+        This figure has a standard color scheme of coloring each mark the same color as this figure is not using color as a channel.
+        This figure uses Lines as marks and uses Horizontal and Verticle Positions as channels to indicate Global Sales and Platform respectively.<br>
+        I put Platform on the Y-Axis and Global Sales on the Y-Axis in order to increase the comprehensibility of the figure as there are a lot of bars in the figure.<br>
+        What this figure tells us is that the Global Sales of games on different platforms is very different. As can be seen the PS2 has the highest Global Sales of all the platforms and if we click the bar that represents the PS2 we can see that Action and Sports games contributed most to the Global Sales of PS2.
+    </div>
+    <h4>Figure 2:</h4>
+    <div id="v2_plot" class="center_plot">
+    </div><br>
+</div>    
+</div>
+
+<div id="v3">
+    </div>
+    <div id="v3_text" class="center_plot">
+        The color scheme of this figure is that every genre is represented by its own distinct color. The color scheme of the bar chart that results from clicking one of the areas of the graph is a standard color scheme where each mark is the same color as color is not being used as a channel.<br>
+        This figure uses Lines as marks and uses Area as a channel to indicate how many sales a mark had at a certain year.<br>
+        What this figure tells us that the popularity of genres waxes and wanes and that the sales of games waxes and wanes overall. As can be seen in the figure Global Sales of all Genres used to be low but in 1995, 2000, and 2003 Global Sales Spiked. However, since the all time high in 2008 sales have been decling. Another thing of note is the genre Sports. It used to be unpopular but the genre started to gain traction in around 1994 and if we click the area that represents the Sports genre we can see Sports reached its all time high in 2009.
+    </div>
+    <h4>Figure 3:</h4>
+    <div id="v3_plot" class="center_plot">
+    </div><br>
+</div>    
+</div>
+
+<div id="v4">
+    </div>
+    <div id="v4_text" class="center_plot">
+        The color scheme of this figure is a sequential color scale that causes a continent's color to increase in saturation as its Global Sales increase.
+        This figure uses Areas as Marks to indicate continents and uses color saturation as a channel to indicate what the Global Sales of that continent were. <br>
+        The continents that had no comparable region in the data were colored white.
+        What this figure shows is that depsite Europe having almost twice the population and an equivalent economy in terms of GDP it still has a lower total Global Sales than North America. What this indicates is that companies might want to focus more on marketing their games in North America as North Americans seem to spend more money on Games than Europeans.
+        
+    </div>
+    <h4>Figure 4:</h4>
+    <div id="v4_plot" class="center_plot">
+    </div><br>
+</div>    
+</div>
+
+
+<div id="v5">
+    </div>
+    <div id="v5_text" class="center_plot">
+        This figure has a standard color scheme where all links are colored the same and all nodes are colored the same as this figure does not use color as a channel.
+        This figure uses Lines and Points as marks to indicate links and nodes respectively and uses Area as a channel to indicate the number of shared title between two platforms.<br>
+        For this figure I filtered out links that had only 1 shared title between Platforms to increase the readability of the graph.<br>
+        What this figure shows is that the XB360 and PS3 have the most shared titles with 818 shared titles between them. This large number of games corrosponds with the explosion in Global Sales as seen in Figure 3 as the XB360 and PS3 were released around this large increase of sales.
+    </div>
+    <h4>Figure 5:</h4>
+    <select id="selectButton"></select>
+    <div id="v5_plot" class="center_plot">
+    </div><br>
+</div>    
+</div>
+
+</body>  
+</html>  
