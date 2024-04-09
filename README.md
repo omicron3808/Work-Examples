@@ -10,7 +10,7 @@ In this project, I used a dataset of stock transactions of members of the House 
 
 ## Transforming EU Car Registration Data
 
-In this example, one of friends needed datasets showing the breakdown of the number of fuel types of newly registered cars for each country in dataset for the years of 2016 to 2021 using http://co2cars.apps.eea.europa.eu/. The raw datasets ranged from 80 megabytes to above 3 gigabytes. The transformed datasets can be found in this folder. I first did this task just by using Pandas and then I redid the task in dask using a cluster on my local machine to refreshen my understanding of how dask works.
+In this example, one of my friends needed datasets showing the breakdown of the number of fuel types of newly registered cars for each country in the dataset for the years 2016 to 2021 using http://co2cars.apps.eea.europa.eu/. The raw datasets ranged from 80 megabytes to above 3 gigabytes. The transformed datasets can be found in this folder. I first did this task just by using Pandas and then I redid the task in Dask using a cluster on my local machine to refreshen my understanding of how Dask works.
 
 ## Visualization
 
